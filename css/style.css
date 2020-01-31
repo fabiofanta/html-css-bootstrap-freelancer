@@ -25,6 +25,11 @@
     border-radius: 8px;
 }
 
+.ms--section-name {
+    font-size: 39px;
+    font-weight: bold;
+}
+
 section {
     padding: 92px 0;
     text-align: center;
@@ -97,11 +102,6 @@ header {
 
 /* ms--portfolio */
 
-.ms--portfolio h1 {
-    font-size: 39px;
-    font-weight: bold;
-}
-
 .ms--portfolio .ms--star::after,.ms--portfolio .ms--star::before {
     background-color: #2c3e50;
 }
@@ -113,4 +113,27 @@ header {
 .ms--pf-image img {
     max-width: 100%;
     border-radius: 7px;
+}
+
+/* ms--about */
+.ms--about p {
+    font-size: 20px;
+}
+
+.ms--about p:first-of-type {
+    padding: 6px 0;
+}
+
+.ms--ab-test {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.ms--ab-download button {
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: normal;
+    border-color: white;
+
+
 }
