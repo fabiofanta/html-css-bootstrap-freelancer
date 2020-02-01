@@ -117,7 +117,7 @@ header {
 
 /* ms--about */
 .ms--about p {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .ms--about p:first-of-type {
@@ -126,14 +126,14 @@ header {
 
 .ms--ab-test {
     padding-top: 5px;
-    padding-bottom: 25px;
+    padding-bottom: 31px;
 }
 
 .ms--ab-download button {
-    padding: 20px 30px;
+    padding: 18px 30px;
     font-size: 20px;
     font-weight: normal;
-    border-color: white;
+    border: 2px solid white;
 }
 
 /* ms--contactme */
@@ -159,6 +159,54 @@ header {
 
 /* footer */
 footer {
-    padding: 60px 0;
+    padding-top: 33px;
+    padding-bottom:70px;
     text-align: center;
+}
+
+footer h4{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: #1abc9c;
+    font-weight: normal;
+}
+
+.ms--location .fab {
+    border: 2px;
+    color: white;
+}
+
+.ms--bg-black {
+    background-color: #1a252f;
+    color: white;
+    font-size: 13px;
+    padding: 25px 0;
+}
+
+.ms--bg-black p {
+    margin: 0;
+}
+
+.ms--logo {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.fas,.fab {
+    position: relative;
+    top: 13px;
+    font-size: 20px;
+    color: white;
 }
