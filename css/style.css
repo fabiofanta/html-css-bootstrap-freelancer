@@ -43,6 +43,9 @@ a,button {
 
 header {
     padding: 15px 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .row > div {
@@ -64,6 +67,11 @@ header {
 }
 
 /* JUMBOTRON */
+
+.jumbo {
+    padding-top: 166px;
+    text-align: center;
+}
 
 .jumbo img {
     max-width: 250px;
