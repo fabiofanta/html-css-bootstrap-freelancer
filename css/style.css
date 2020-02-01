@@ -188,6 +188,21 @@ footer a {
     font-weight: normal;
 }
 
+.ms--logo {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.fas,.fab {
+    position: relative;
+    top: 13px;
+    font-size: 20px;
+    color: white;
+}
+
 .ms--location .fab {
     border: 2px;
     color: white;
@@ -204,17 +219,6 @@ footer a {
     margin: 0;
 }
 
-.ms--logo {
-    display: inline-block;
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-}
-
-.fas,.fab {
-    position: relative;
-    top: 13px;
-    font-size: 20px;
-    color: white;
+.ms-chevron-up {
+    position: fixed;
 }
