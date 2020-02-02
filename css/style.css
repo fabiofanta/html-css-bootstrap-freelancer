@@ -79,8 +79,13 @@ ul {
 nav ul a {
     padding: 15px;
     color: white;
+}
+
+nav ul a:hover {
+    color: #1abc9c;
     text-decoration: none;
 }
+
 
 /* JUMBOTRON */
 
@@ -139,14 +144,48 @@ nav ul a {
     border-radius: 7px;
 }
 
+.ms--overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border-radius: 7px;
+}
+
+.ms--img-overlay {
+  background-color: #1abc9c;
+  opacity: 0;
+}
+
+.ms--pf-image:hover .ms--img-overlay {
+    opacity: 0.8;
+}
+
+.ms--plus {
+    font-size: 70px;
+    color: white;
+    opacity: 1;
+
+}
+
+.ms--plus span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.ms--pf-image:hover .ms--plus span{
+    opacity: 1
+}
+
 /* ms--about */
 .ms--about p {
     font-size: 19px;
     padding-left: 0;
-}
-
-.ms--about p:first-of-type {
-    padding: 6px 0;
 }
 
 .ms--ab-test {
@@ -159,6 +198,11 @@ nav ul a {
     font-size: 20px;
     font-weight: normal;
     border: 2px solid white;
+}
+
+.ms--ab-download button:hover {
+    color: black;
+    background-color: white;
 }
 
 /* ms--contactme */
@@ -176,11 +220,15 @@ nav ul a {
 
 #ms--bt-send {
     margin-top: 30px;
-    width: 21%;
-    min-width: 100px;
+    max-width: 90px;
     padding: 20px 20px;
     color: white;
     font-size: 19px;
+}
+
+#ms--bt-send:hover {
+    background-color:#159a80;
+    border-color:#148f77;
 }
 
 /* footer */
@@ -214,11 +262,19 @@ footer a {
     height: 50px;
 }
 
+.ms--logo:hover {
+    background-color: white;
+}
+
 .fas,.fab {
     position: relative;
     top: 13px;
     font-size: 20px;
     color: white;
+}
+
+.fas:hover,.fab.fa-twitter:hover,.fab.fa-facebook-f:hover,.fab.fa-linkedin-in:hover {
+    color: black;
 }
 
 .ms--location .fab {
@@ -241,6 +297,10 @@ footer a {
     .ms--about p:first-of-type {
         padding:0;
         padding-right: 40px;
+    }
+
+    .ms--ab-download {
+        padding-top: 40px;
     }
 
     .ms--stboot{
