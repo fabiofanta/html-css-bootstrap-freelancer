@@ -48,14 +48,15 @@ header {
     z-index: 999;
 }
 
-.row > div {
+header .row > div {
     display: inline-block;
 }
 
-.logo {
+.ms--stboot {
     padding-top: 9px;
 }
-.logo a {
+
+.ms--stboot a {
     font-size: 19px;
     color: white;
     text-decoration: none;
@@ -64,6 +65,10 @@ header {
 .bt-menu button {
     padding: 12px 15px;
     border: #1abc9c;
+}
+
+nav {
+    display: inline-block;
 }
 
 /* JUMBOTRON */
@@ -115,7 +120,7 @@ header {
 }
 
 .ms--pf-image {
-    padding: 15px 0;
+    padding: 15px 15px;
 }
 
 .ms--pf-image img {
@@ -126,6 +131,7 @@ header {
 /* ms--about */
 .ms--about p {
     font-size: 19px;
+    padding-left: 0;
 }
 
 .ms--about p:first-of-type {
@@ -219,11 +225,8 @@ footer a {
     margin: 0;
 }
 
-@media all and (min-width: 768px) {
-    header {
-    padding: 15px 0px;
-}
-
-   .ms--pf-image {
-       padding: 15px 15px;
-   }
+@media all and (min-width: 992px) {
+    .ms--about p:first-of-type {
+        padding:0;
+        padding-right: 40px;
+    }
