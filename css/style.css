@@ -42,7 +42,8 @@ a,button {
 /* HEADER */
 
 header {
-    padding: 15px 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -68,7 +69,17 @@ header .row > div {
 }
 
 nav {
-    display: inline-block;
+    line-height: 2;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+nav ul a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
 }
 
 /* JUMBOTRON */
@@ -229,4 +240,17 @@ footer a {
     .ms--about p:first-of-type {
         padding:0;
         padding-right: 40px;
+    }
+
+    .ms--stboot{
+        padding-top: 0;
+    }
+
+    .ms--stboot a {
+        font-size: 22px;
+    }
+
+    header {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
