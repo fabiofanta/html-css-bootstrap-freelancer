@@ -137,6 +137,7 @@ nav ul a:hover {
 
 .ms--pf-image {
     padding: 15px 15px;
+    line-height: 0;
 }
 
 .ms--pf-image img {
@@ -167,7 +168,6 @@ nav ul a:hover {
     font-size: 70px;
     color: white;
     opacity: 1;
-
 }
 
 .ms--plus span {
